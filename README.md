@@ -1,75 +1,50 @@
-# Nuxt Minimal Starter
+# Knothing - Privacy-First Developer Tools
 
-Look at the [Nuxt documentation](https://nuxt.com/docs/getting-started/introduction) to learn more.
+![Nuxt 3](https://img.shields.io/badge/Nuxt-3.0-00DC82?style=flat-square&logo=nuxt.svg)
+![PWA](https://img.shields.io/badge/PWA-Ready-5A0FC8?style=flat-square&logo=pwa)
+![License](https://img.shields.io/badge/License-MIT-blue?style=flat-square)
 
-## Setup
+**Knothing** is a privacy-first, client-side developer tool station. We believe your data should stay on your device, not be sent to a random server for processing.
 
-Make sure to install dependencies:
+![App Screenshot](/public/screenshot-desktop.png)
+
+## 🚀 Quick Links
+
+👉 **[Live Demo / Use Now](https://knothing.com)**
+
+- [Blog & Tutorials](https://knothing.com/blog)
+- [Report an Issue](https://github.com/thundereagle/aiknothing/issues)
+
+## ✨ Features
+
+- 🔒 **Privacy First**: All logic (UUID generation, Image Compression, JSON formatting) runs 100% in your browser. No server uploads.
+- ⚡ **Zero Latency**: Hosted on the Edge with Cloudflare Pages for instant load times.
+- 🛠️ **Essential Tools**:
+  - **UUID Generator**: Bulk generate v4 UUIDs.
+  - **Smart Image Compressor**: Reduce file size locally with aspect ratio locking.
+  - **JSON Formatter**: Validate and prettify JSON.
+  - **Cron Generator**: Schedule jobs easily.
+  - **Text Diff**: Compare code snippets.
+- 📱 **PWA Support**: Install as a native app on iOS, Android, and Desktop. Works offline.
+- 🌙 **Dark Mode**: Designed for developers, by developers.
+
+## 🛠️ Tech Stack
+
+- **Framework**: [Nuxt 3](https://nuxt.com) (Vue 3)
+- **Styling**: [Tailwind CSS](https://tailwindcss.com)
+- **PWA**: [@vite-pwa/nuxt](https://vite-pwa-org.netlify.app/)
+- **Deployment**: Cloudflare Pages
+
+## 📦 Setup & Development
 
 ```bash
-# npm
+# Install dependencies
 npm install
 
-# pnpm
-pnpm install
-
-# yarn
-yarn install
-
-# bun
-bun install
-```
-
-## Development Server
-
-Start the development server on `http://localhost:3000`:
-
-```bash
-# npm
+# Start development server
 npm run dev
-
-# pnpm
-pnpm dev
-
-# yarn
-yarn dev
-
-# bun
-bun run dev
 ```
 
-## Production
+## 📄 License
 
-Build the application for production:
-
-```bash
-# npm
-npm run build
-
-# pnpm
-pnpm build
-
-# yarn
-yarn build
-
-# bun
-bun run build
-```
-
-Locally preview production build:
-
-```bash
-# npm
-npm run preview
-
-# pnpm
-pnpm preview
-
-# yarn
-yarn preview
-
-# bun
-bun run preview
-```
-
-Check out the [deployment documentation](https://nuxt.com/docs/getting-started/deployment) for more information.
+MIT License © 2025 Knothing
