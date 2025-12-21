@@ -18,7 +18,7 @@ It’s 2025. You shouldn't need to spin up a local Postgres instance just to run
 
 We built the **[Local SQL Analyzer](/sql-analyzer)** to solve exactly this problem. It brings the full power of a SQL database directly into your browser tab—**without sending a single byte of data to a server.**
 
-![Local SQL Analyzer Interface](/sql-analyzer.jpg)
+![Local SQL Analyzer Interface](/public/sql-analyzer.jpg)
 
 ### ✨ Why You'll Love It
 
